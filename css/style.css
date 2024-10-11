@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap&#39;');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFFDFB;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Boogaloo", sans-serif;
+}
+
+body {
+
+    background-color: #6946A2;
+    color: white;
+}
+
+nav {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+    padding-right: 100px;
+    margin-block: 10px;
+
+    div {
+        display: flex;
+        align-items: center;
+    }
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.logo {
+    span {
+        width: 100px;
+        flex-wrap: wrap;
+    }
+
+    img {
+        width: 75px;
+    }
+}
+
+section {
+    background-image: url(../img/banner.png);
+    height: 42dvw;
+    background-size: 100% 100%;
+    display: flex;
+}
+
+main {
+    margin-block: 230px;
+    margin-left: 100px;
+}
+
+.title {
+    font-size: 5rem;
+    width: 35rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: orange;
+    width: 18rem;
+    font-size: 2rem;
+}
